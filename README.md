@@ -24,4 +24,13 @@ Open `http://127.0.0.1:4173/jam-guitar-english/`.
 
 ## Pages
 
-Pushes to `main` run `.github/workflows/pages.yml`, which builds `dist/` and deploys it with GitHub Actions. The phone remembers the last day in `localStorage` (`jam-guitar-english:lastDay`), and opens Day 31 when nothing is saved yet.
+Pushes to `main` run `.github/workflows/pages.yml`, which builds `dist/` and deploys it with GitHub Actions. The same build is committed under `docs/` (with `.nojekyll`) so Pages can also serve branch `main` and folder `/docs`.
+
+Turn Pages on for this repository before the live URL answers:
+
+- Source **GitHub Actions**, then re-run the Deploy workflow, or
+- Source **Deploy from a branch**: branch `main`, folder `/docs`.
+
+Live site: https://vinjam0629.github.io/jam-guitar-english/
+
+The phone remembers the last day in `localStorage` (`jam-guitar-english:lastDay`) and opens Day 31 when nothing is saved yet.

@@ -1,0 +1,25 @@
+{
+  "name": "吉他维修英语 · 随身课",
+  "short_name": "吉他英语",
+  "description": "给吉他技师的每日维修英语口语课，Day 1 到 Day 31。",
+  "start_url": "/jam-guitar-english/",
+  "scope": "/jam-guitar-english/",
+  "display": "standalone",
+  "background_color": "#f3ecdf",
+  "theme_color": "#3c2415",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
